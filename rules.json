@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "allow"
+      },
+      "condition": {
+        "urlFilter": "*",
+        "resourceTypes": ["xmlhttprequest", "main_frame", "sub_frame"]
+      }
+    }
+  ]
+  
