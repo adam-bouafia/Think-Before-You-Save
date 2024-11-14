@@ -15,6 +15,19 @@ This project is part of the **Green Waves Hackathon** at **TU Delft University**
 
 ---
 
+## Screenshots
+
+### Main Interface
+![Main Interface](icons/screen1.png)
+
+### History View
+![History View](icons/screen3.png)
+
+### Notification View
+![Notification View](icons/screen2.png)
+
+---
+
 ## Installation
 
 ### From GitHub
@@ -106,16 +119,6 @@ Contributions are welcome! To contribute:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Screenshots
-
-### Main Interface
-![Main Interface](https://via.placeholder.com/300x200?text=Main+Interface)
-
-### History View
-![History View](https://via.placeholder.com/300x200?text=History+View)
 
 ---
 
