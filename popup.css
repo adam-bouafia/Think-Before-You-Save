@@ -1,10 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   padding: 0;
   width: 300px;
   overflow-x: hidden;
   background-color: #f9f9f9;
+  color: #333;
 }
 
 .header {
@@ -15,93 +16,125 @@ body {
   border-bottom: 3px solid #ecf0f1;
 }
 
-.lazy-panda {
-  text-align: center;
-  margin: 20px;
-  display: block;
+.header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.lazy-panda img {
-  width: 120px;
-  height: auto;
+.header p {
+  margin: 5px 0 0;
+  font-size: 14px;
 }
 
 .history-container {
-  padding: 10px;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .history-item {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: white;
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: #f5f5f5;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #34495e;
+}
+
+.history-item div {
+  margin: 5px 0;
+}
+
+.history-item strong {
+  color: #2c3e50;
+}
+
+.history-item .date-info {
+  color: #7f8c8d;
+  font-size: 12px;
+  margin-top: 5px;
+  font-style: italic;
 }
 
 .tips {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 20px;
-  padding: 10px;
+  justify-content: center;
+  margin: 20px 10px;
+  padding: 15px;
   background-color: #eafaf1;
-  border-radius: 5px;
-  text-align: center;
-  font-style: italic;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #34495e;
   position: relative;
 }
 
 #tip-text {
-  flex: 1;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  margin: 0 40px; /* Add spacing around the buttons */
+  margin: 0 50px;
 }
 
 .tip-button {
-  background-color: #eafaf1;
-  color: white;
-  border: none;
-  border-radius: 50%; /* Make buttons circular */
-  padding: 5px;
-  width: 30px; /* Reduce size */
-  height: 30px; /* Reduce size */
+  background-color: #ecf0f1; /* Light background for better visibility */
+  color: #34495e; /* Darker text for contrast */
+  border: 2px solid #ecf0f1; /* Add a clean border */
+  border-radius: 50%; /* Smoothen the corners */
+  padding: 10px; /* Increase padding for better clickability */
+  width: 40px; /* Larger size for visibility */
+  height: 40px; 
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px; /* Slightly larger font size */
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Add subtle shadow */
 }
 
 .tip-button:hover {
-  background-color: #34495e;
+  background-color: #2c3e50; /* Dark background on hover */
+  color: white; /* White text on hover for contrast */
+  border-color: #2c3e50; /* Match border color with hover background */
+  transform: scale(1.1); /* Slight zoom effect */
 }
 
 #prev-tip {
   position: absolute;
-  left: 5px; 
+  left: 10px; 
 }
 
 #next-tip {
   position: absolute;
-  right: 5px; 
+  right: 10px; 
 }
 
 
 .social-icons {
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .social-icons a {
-  margin: 0 5px;
+  margin: 0 8px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .social-icons img {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
 }

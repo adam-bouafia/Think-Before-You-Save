@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "💡 Tip: Compress files before uploading to reduce CO2 emissions.",
         "💡 Tip: Store files in renewable-energy regions to save the planet.",
         "💡 Tip: Delete old cloud files to lower your digital footprint.",
-        "💡 Tip: Use shared or collaborative documents to reduce duplicated cloud storage.",
         "💡 Tip: Prefer local storage for infrequently accessed files.",
         "💡 Tip: Regularly review and remove unused apps or backups in cloud accounts.",
         "💡 Tip: Schedule file uploads during off-peak hours to reduce network strain.",

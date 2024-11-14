@@ -4,7 +4,7 @@ function handleFileUpload(fileSizeBytes, fileName) {
       {
         type: "CALCULATE_EMISSIONS",
         fileSizeBytes,
-        fileName, // Pass fileName here
+        fileName,
       },
       (response) => {
         if (response && response.success) {
